@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'robot_controller = goal_directed_movement.robot_controller:main'
         ],
     },
 )
